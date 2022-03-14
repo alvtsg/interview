@@ -1,21 +1,30 @@
-# interview
+# Take Home Exercise
 
 
-Prerequisition
-- please install the following Python module if they're not installed
-```pip install requests```
-```pip install pytest```
+## Prerequisition
+- please install the following Python module if they're not installed  
+
+```pip install requests```  
+
+```pip install pytest```  
+
 ```pip install selenium```
 
-- Get access token from gorest.co.in, it's needed for create/update/delete operations
-Go to https://gorest.co.in/my-account/access-tokens
-Generate a toke, save it locally
+- Make sure chromedriver is on the executable path
 
-- Save the above access token as environment variable in the running environment
-Assign the access token to environment variable with name: GOREST_ACCESS_TOKEN
+- Get access token from gorest.co.in, it's needed for create/update/delete operations  
+1. Go to https://gorest.co.in/my-account/access-tokens
+2. Generate a toke, save it locally
 
-To run assignments:
-- For REST API assignment: 
+- Store the above access token as environment variable in the running environment
+1. Assign the access token to environment variable with name: GOREST_ACCESS_TOKEN  
+
+
+## To run these exercises:
+1. For REST API exercise:  
+
 ```pytest user_test.py```
-- For Amazon Web Automation assignment: 
+
+2. For Amazon Web Automation exercise  
+
 ```python amazon_order_automation.py```

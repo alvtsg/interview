@@ -6,7 +6,7 @@ import os
 class Users:
     def __init__(self, url=None, access_token=None, headers=None):
         self.url = 'https://gorest.co.in/public/v2/users'
-        self.access_token = os.environ.get('GOREST_ACCESS_TOKEN')
+        self.access_token = os.environ.get('GOREST_ACCESS_TOKEN', '')
         if url:
             self.url = url
         if access_token:
